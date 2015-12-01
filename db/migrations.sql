@@ -1,5 +1,5 @@
-CREATE DATABASE recommendations;
+CREATE DATABASE chicago_recommendations;
 
-\c recommendations
+\c chicago_recommendations
 
-CREATE TABLE attractions (id SERIAL PRIMARY KEY, contributor TEXT, place TEXT, notes varchar(500), type TEXT);
+CREATE TABLE recommendations (id SERIAL PRIMARY KEY, contributor TEXT, place TEXT, notes varchar(500), type_of_place TEXT);
